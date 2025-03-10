@@ -8,6 +8,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 from sklearn import metrics
+
+# Page configuration
+st.set_page_config(page_title="Titanic Survival Prediction", layout="wide", page_icon=":label:")
 # Part 1: Build project
 data = pd.read_csv("train.csv")
 
